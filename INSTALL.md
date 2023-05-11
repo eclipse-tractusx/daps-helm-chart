@@ -5,15 +5,14 @@ Helm charts are provided inside https://github.com/eclipse-tractusx/daps-helm-ch
 1.) Using helm commands:- <br />
 
 How to install application using helm:-
-    helm install ReleaseName ChartName
-    
+helm install ReleaseName ChartName
+
     a.) Add helm repository in tractusx:-
            helm repo add daps-server https://eclipse-tractusx.github.io/charts/dev
-    b.) To search the specific repo in helm repositories 
+    b.) To search the specific repo in helm repositories
            helm search repo tractusx-dev
-    c.) To install using helm command:-   
+    c.) To install using helm command:-
            helm install daps-server tractusx-dev/daps-server
-
 
 2.) Local installation:
 
@@ -22,7 +21,7 @@ How to install application using helm:-
     c.) Add the image.repository in the values file
     c.) You need to define the secrets as well in values.yaml  <br />
         secret:  <br />
-          clientId:  -> Client id for DAPS.   
+          clientId:  -> Client id for DAPS.
           clientSecret:   -> Client Secret for DAPS  <br />
 
     d.) These secrets should be defined in Hashicorp vault. <br />

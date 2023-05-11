@@ -13,7 +13,7 @@ description: DAPS server helm-chart
 type: application
 
 sources:
-  -  https://github.com/eclipse-tractusx/daps-helm-chart
+- https://github.com/eclipse-tractusx/daps-helm-chart
 
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.

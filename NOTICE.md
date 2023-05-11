@@ -2,7 +2,7 @@
 
 This content is produced and maintained by the Eclipse Tractus-X project.
 
-* Project home: https://projects.eclipse.org/projects/automotive.tractusx
+- Project home: https://projects.eclipse.org/projects/automotive.tractusx
 
 See the AUTHORS file(s) distributed with this work for additional information regarding authorship.
 
