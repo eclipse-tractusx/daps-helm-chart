@@ -44,16 +44,16 @@ podAnnotations: {}
 
 # -- Pod security context configuration
 podSecurityContext: {}
-  # fsGroup: 2000
+#   fsGroup: 2000
 
 # -- Pod security context configuration
 securityContext:
-  # capabilities:
-  #   drop:
-  #   - ALL
-  # readOnlyRootFilesystem: true
-  # runAsNonRoot: true
-  # runAsUser: 1000
+#   capabilities:
+#     drop:
+#     - ALL
+#   readOnlyRootFilesystem: true
+#   runAsNonRoot: true
+#   runAsUser: 1000
 
 service:
   # -- Service type
