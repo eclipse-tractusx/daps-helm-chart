@@ -27,11 +27,11 @@ replicaCount: 1
 
 image:
   # -- DAPS docker image
-  repository: ""
+  repository: "ghcr.io/fraunhofer-aisec/omejdn-server"
   # -- Image pull policy
   pullPolicy: IfNotPresent
   # -- Image tag. Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "1.7.1"
 
 # -- Secret which contains dockerconfig.json from private container registry with daps image
 imagePullSecrets: []
