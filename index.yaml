@@ -3,6 +3,18 @@ entries:
   daps-server:
   - apiVersion: v2
     appVersion: 1.7.1
+    created: "2023-09-01T07:56:14.425086187Z"
+    description: DAPS server helm-chart
+    digest: 30e2221a3e0a4a15944211f48023df3dab9b7c05924da016435e600e116ab86b
+    name: daps-server
+    sources:
+    - https://github.com/eclipse-tractusx/daps-helm-chart
+    type: application
+    urls:
+    - https://github.com/eclipse-tractusx/daps-helm-chart/releases/download/daps-server-1.8.1/daps-server-1.8.1.tgz
+    version: 1.8.1
+  - apiVersion: v2
+    appVersion: 1.7.1
     created: "2023-06-28T07:12:13.609842536Z"
     description: DAPS server helm-chart
     digest: c18389717f6e3f31f6c85cca9676dfb235264952662d5c9af62486bd96cd24eb
@@ -119,4 +131,4 @@ entries:
     urls:
     - https://github.com/eclipse-tractusx/daps-helm-chart/releases/download/daps-server-1.7.2/daps-server-1.7.2.tgz
     version: 1.7.2
-generated: "2023-06-28T07:12:13.60989204Z"
+generated: "2023-09-01T07:56:14.425139086Z"
