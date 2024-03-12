@@ -1,5 +1,9 @@
 # DAPS Server
 
+[![status: archive](https://github.com/GIScience/badges/raw/master/status/archive.svg)](https://github.com/GIScience/badges#archive)
+
+>❗**Note**❗
+> This repository is currently not under active maintenance and therefore archived. If you plan on picking up this product again, feel free to reach out ot the Eclipse Tractus-X projects leads via [mailing list](https://accounts.eclipse.org/mailing-list/tractusx-dev).
 
 Notice: Tractus-x relies on an IDS-compatible architecture. In that context, a DAPS is needed as an identity server. In this project, we use Fraunhofer's DAPS implementation (https://github.com/Fraunhofer-AISEC/omejdn-server#readme). We recommend choosing your favorite identity server. The provided helm charts here need to be adapted accordingly.
 
